@@ -1,4 +1,4 @@
-'''
+"""
 Uniqueness of words in a sentence!
 
 Description: Given a sentence as a string, determine if all the words in the sentence are unique
@@ -15,7 +15,7 @@ Follow up examples to expand the question
 “One two three twenty-one twenty-two twenty-three” -> Up to the examiner (prompts the candidate for how to handle hyphenation)
 A million random numbers represented in decimal separated by spaces … a billion? (scaling)
 
-'''
+"""
 
 import re
 
