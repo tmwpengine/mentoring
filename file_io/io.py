@@ -12,7 +12,7 @@ def read_from_file():
 def write_to_file():
     file_to_write = open('new_file.txt', 'w')
     for i in range(1, 11):
-        # creates anew file or over-writes an existing one
+        # creates a new file or over-writes an existing one
         file_to_write.write(str(i))
     file_to_write.close()
 
