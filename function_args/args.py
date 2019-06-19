@@ -23,14 +23,18 @@ def demo_use_of_kwargs(first_arg, **kwargs):
 
 demo_use_of_kwargs('first_arg', name='Tony')
 print('*********')
-demo_use_of_kwargs('first_arg', **{'name': 'Tony'})
+
+d= {'name': 'Tony'}
+
+demo_use_of_kwargs('first_arg', **d)
 print('*********')
 
 
 def demo_use_of_default_arg(first_arg, second_arg=None):
     print(f'first_arg is {first_arg}')
+    print(f'second arg is {second_arg}')
     if second_arg:
-        print(f'first_arg is {second_arg}')
+        print(f'second_arg is {second_arg}')
 
 
 demo_use_of_default_arg('first_arg')
