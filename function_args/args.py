@@ -1,3 +1,6 @@
+# ** is dict
+# * is tuple
+
 def demo_use_of_args(first_arg, *args):
     print(f'first_arg is {first_arg}')
     print(f'*args is {args} ')
@@ -17,7 +20,7 @@ print('*********')
 
 def demo_use_of_kwargs(first_arg, **kwargs):
     print(f'first_arg is {first_arg}')
-    print(f'*args is {kwargs} ')
+    print(f'*kwargs is {kwargs} ')
     for key, value in kwargs.items():
         print(f'key is {key} and value is {value}')
 

@@ -8,8 +8,8 @@ ut labore et dolore magna aliqua."""
 
 first_name = 'Tony'
 last_name = 'milan'
-full_name = f'Full name is {first_name} {last_name}'  # interpolation
-full_name2 = 'Full name is {first_name} {last_name}'.format(first_name=first_name, last_name=last_name)
+full_name = f'Full name is {first_name} {last_name}'  # interpolation Python3
+full_name2 = 'Full name is {first_name} {last_name}'.format(first_name=first_name, last_name=last_name)  # Python2
 
 print(full_name[1])
 print(full_name[1:5])
