@@ -1,5 +1,4 @@
 # String (Immutable)
-
 s = 'some string'
 
 multi_line_string = a = """Lorem ipsum dolor sit amet,
@@ -102,3 +101,17 @@ nested_dict = {
 }
 
 print(nested_dict['person']['name'])
+
+# Mutable vs Immutable
+s = 'Tony'
+print(id(s))
+s += 'Milan'
+print(id(s))
+
+s1 = 'first string'
+print(id(s1))
+
+l = [1, 2]
+print(id(l))
+l.append(3)
+print(id(l))
