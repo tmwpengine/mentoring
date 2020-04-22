@@ -4,6 +4,7 @@ def demo_use_of_args(first_arg, *args):
     for arg in args:
         print(arg)
 
+
 demo_use_of_args('required arg', 'non_required_arg1', 'non_required_arg2')
 print('*********')
 demo_use_of_args('required arg', *['non_required_arg1', 'non_required_arg2'])
@@ -24,7 +25,7 @@ def demo_use_of_kwargs(first_arg, **kwargs):
 demo_use_of_kwargs('first_arg', name='Tony')
 print('*********')
 
-d= {'name': 'Tony'}
+d = {'name': 'Tony'}
 
 demo_use_of_kwargs('first_arg', **d)
 print('*********')
